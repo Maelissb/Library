@@ -3,4 +3,10 @@
 {%block title%}Liste des Manga{%endblock%}
 {%block body%}
     Ceci est mon manga
+
+    <ul>
+        <li>
+            <a href="{{ url('manga.show', {id: 1, slug: 'negima-tome1'}) }}">Negima</a>
+        </li>
+    </ul>
 {%endblock%}

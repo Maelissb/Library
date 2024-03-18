@@ -1,6 +1,6 @@
 {%extends 'base.html.twig'%}
 
-{%block title%}Liste des Manga{%endblock%}
+{%block title "Liste des Manga : " ~ slug%}
 {%block body%}
-    {{slug}} {{demo}}
+    {{slug}} {{demo | raw}}
 {%endblock%}
