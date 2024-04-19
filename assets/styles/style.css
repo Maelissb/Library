@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menuHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFBE98;
+  padding: 12px;
+}
+
+.logo {
+  /* Ajoutez ces lignes pour aligner le logo à gauche */
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: #ff92db;
+}
+
+.menu li {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */

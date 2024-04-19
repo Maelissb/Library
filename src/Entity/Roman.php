@@ -2,12 +2,12 @@
 
 namespace App\Entity;
 
-use App\Repository\MangaRepository;
+use App\Repository\RomanRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: MangaRepository::class)]
-class Manga
+#[ORM\Entity(repositoryClass: RomanRepository::class)]
+class Roman
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
